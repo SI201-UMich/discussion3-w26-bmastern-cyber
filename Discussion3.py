@@ -28,7 +28,8 @@ class Rectangle():
     # Returns a boolean value
 
     # YOUR CODE HERE
-
+    def __eq__(self, other):
+        return (self.length == other.length) and (self.width == other.width)
 
     
 
@@ -46,11 +47,12 @@ def main():
     print("Area:", r2.area_calculator())
     # call the __eq__ method
     print(r1 == r2)
-    print()
+    print(r1.__eq__(r2))
 
     # you can create additional rectangle objects to 
     # test your code or learn more about how the class behaves
-    pass
+    r3 = Rectangle(10,10)
+    print(r1.__eq__(r3))
 
 if __name__ == "__main__":
     main()
