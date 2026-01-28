@@ -19,8 +19,9 @@ class Rectangle():
     # Create the "area_calculator" method
 
     # YOUR CODE HERE
-
-
+    def area_calculator(self):
+        area = self.length * self.width
+        return area
 
     # Create the "__eq__" method
     # 
@@ -32,9 +33,9 @@ class Rectangle():
     
 
 
-    def main():
-        r1 = Rectangle(10, 10)
-        # call the __str__ method
+def main():
+    r1 = Rectangle(10, 10)
+    # call the __str__ method
     print(r1)
     # call the area_calculator method
     print("Area:", r1.area_calculator())
