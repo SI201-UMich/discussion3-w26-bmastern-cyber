@@ -12,7 +12,8 @@ class Rectangle():
     # Create the "__str__" method
 
     # YOUR CODE HERE
-
+    def __str__(self):
+        return f"Length: {self.length} Width: {self.width}"
 
 
     # Create the "area_calculator" method
