@@ -4,7 +4,8 @@ class Rectangle():
     # Create the constructor "__init__" method
 
     # YOUR CODE HERE
-
+    def __init__(self):
+        pass
 
 
     # Create the "__str__" method
@@ -29,9 +30,9 @@ class Rectangle():
     
 
 
-def main():
-    r1 = Rectangle(10, 10)
-    # call the __str__ method
+    def main():
+        r1 = Rectangle(10, 10)
+        # call the __str__ method
     print(r1)
     # call the area_calculator method
     print("Area:", r1.area_calculator())
