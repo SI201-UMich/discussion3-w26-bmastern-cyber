@@ -4,8 +4,9 @@ class Rectangle():
     # Create the constructor "__init__" method
 
     # YOUR CODE HERE
-    def __init__(self):
-        pass
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
 
 
     # Create the "__str__" method
